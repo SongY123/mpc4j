@@ -29,6 +29,6 @@ jobs:
       run: cd mpc4j-crypto-fhe && mvn install
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy
+      run: cd mpc4j-crypto-fhe && mvn deploy
       env:
         GITHUB_TOKEN: ${{ github.token }}
