@@ -211,6 +211,14 @@
         </dependencies>
     </dependencyManagement>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/SongY123/mpc4j</url>
+    </repository>
+  </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
